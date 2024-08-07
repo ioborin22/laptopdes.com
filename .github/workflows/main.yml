@@ -30,5 +30,10 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           command_timeout: 90m
           script: |
+            # Change permissions for WordPress directories
+            sudo chown -R www-data:www-data /var/www/html/laptopdes.com
+            sudo find /var/www/html/laptopdes.com -type d -exec chmod 755 {} \;
+            sudo find /var/www/html/laptopdes.com -type f -exec chmod 644 {} \;
+
             # Restart web server if needed
             sudo systemctl restart apache2
