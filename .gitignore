@@ -1,16 +1,5 @@
 # WordPress files to ignore
 wp-config.php
-/wp-admin/
-/wp-includes/
-/wp-content/upgrade/
-/wp-content/cache/
-/wp-content/uploads/
-/wp-content/backup-*
-/wp-content/languages/
-/wp-content/advanced-cache.php
-/wp-content/wp-cache-config.php
-/wp-content/debug.log
-/wp-content/*.log
 
 # Ignore Mac system files
 .DS_Store

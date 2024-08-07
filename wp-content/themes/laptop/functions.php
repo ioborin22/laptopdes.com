@@ -593,5 +593,4 @@ add_action('wp_head', 'add_google_adsense_script');
 
 
 
-
 ?>
