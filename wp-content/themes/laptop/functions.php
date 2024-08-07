@@ -613,4 +613,57 @@ function add_google_tag_manager() {
 }
 add_action('wp_head', 'add_google_tag_manager');
 
+// Add meta tags for title and description
+function custom_meta_tags() {
+    if (is_singular()) {
+        global $post;
+        $title = get_the_title($post->ID);
+        $description = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
+
+        echo '<title>' . esc_html($title) . '</title>' . "\n";
+        if ($description) {
+            echo '<meta name="description" content="' . esc_attr($description) . '">' . "\n";
+        }
+    } else if (is_home() || is_front_page()) {
+        // Add meta tags for the homepage
+        echo '<title>' . get_bloginfo('name') . '</title>' . "\n";
+        echo '<meta name="description" content="' . get_bloginfo('description') . '">' . "\n";
+    }
+}
+add_action('wp_head', 'custom_meta_tags');
+
+// Add Open Graph meta tags
+function custom_open_graph_tags() {
+    if (is_singular()) {
+        global $post;
+        $title = get_the_title($post->ID);
+        $description = get_post_meta($post->ID, '_yoast_wpseo_metadesc', true);
+        $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
+
+        echo '<meta property="og:title" content="' . esc_html($title) . '">' . "\n";
+        if ($description) {
+            echo '<meta property="og:description" content="' . esc_attr($description) . '">' . "\n";
+        }
+        if ($image) {
+            echo '<meta property="og:image" content="' . esc_url($image[0]) . '">' . "\n";
+        }
+        echo '<meta property="og:url" content="' . esc_url(get_permalink($post->ID)) . '">' . "\n";
+    } else if (is_home() || is_front_page()) {
+        // Add Open Graph meta tags for the homepage
+        echo '<meta property="og:title" content="' . get_bloginfo('name') . '">' . "\n";
+        echo '<meta property="og:description" content="' . get_bloginfo('description') . '">' . "\n";
+        // Add URL of your image if you have one
+        // echo '<meta property="og:image" content="' . esc_url('URL to your image') . '">' . "\n";
+        echo '<meta property="og:url" content="' . esc_url(home_url('/')) . '">' . "\n";
+    }
+}
+add_action('wp_head', 'custom_open_graph_tags');
+
+// Add robots meta tag
+function custom_robots_meta_tag() {
+    echo '<meta name="robots" content="index, follow">' . "\n";
+}
+add_action('wp_head', 'custom_robots_meta_tag');
+
+
 ?>
