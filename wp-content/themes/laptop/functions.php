@@ -586,4 +586,10 @@ function single_random_image() {
 
 }
 
+function add_google_adsense_script() {
+    echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9384619306632558" crossorigin="anonymous"></script>';
+}
+add_action('wp_head', 'add_google_adsense_script');
+
+
 ?>
