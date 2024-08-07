@@ -25,6 +25,6 @@ RewriteRule \.(jpg|jpeg|png|gif)$ – [NC,F,L]
 <FilesMatch "^(wp-login\.php|wp-admin|admin-post\.php|xmlrpc\.php)$">
     Order Deny,Allow
     Deny from all
-    # Разрешить доступ только с вашего IP-адреса:
+    # Allow IP:
     Allow from xxx.xxx.xxx.xxx
 </FilesMatch>
