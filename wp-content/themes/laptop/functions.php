@@ -43,11 +43,12 @@ add_action( 'widgets_init', 'my_archives_widget_init' );
 
 function my_archives_widget_init() {
 
-  register_sidebar_widget( 'My Archives Widget', 'my_archives_widget' );
+	wp_register_sidebar_widget('my_widget_id', 'My Widget', 'my_widget_function');
 
 }
 
-add_custom_background();
+add_theme_support('custom-background');
+
 
 if ( function_exists( 'register_sidebar' ) ) register_sidebars(1); 
 
