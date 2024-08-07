@@ -592,6 +592,25 @@ function add_google_adsense_script() {
 }
 add_action('wp_head', 'add_google_adsense_script');
 
+/*
+Plugin Name: Google Tag Manager
+Description: Adds Google Tag Manager script to the header of all pages.
+Version: 1.0
+Author: Your Name
+*/
 
+function add_google_tag_manager() {
+    ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q1DMMWPVD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9Q1DMMWPVD');
+    </script>
+    <?php
+}
+add_action('wp_head', 'add_google_tag_manager');
 
 ?>
