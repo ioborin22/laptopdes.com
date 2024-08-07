@@ -21,6 +21,9 @@ jobs:
           source: "."
           target: "/var/www/html/laptopdes.com"
           strip_components: 1
+          excludes: |
+            .git/
+            .github/
 
       - name: Final Setup on Server
         uses: appleboy/ssh-action@master
@@ -30,6 +33,9 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           command_timeout: 90m
           script: |
+            # Remove all files and directories except wp-config.php
+            find /var/www/html/laptopdes.com -mindepth 1 ! -regex '^/var/www/html/laptopdes.com/wp-config\.php$' -delete
+
             # Change permissions for WordPress directories
             sudo chown -R www-data:www-data /var/www/html/laptopdes.com
             sudo find /var/www/html/laptopdes.com -type d -exec chmod 755 {} \;
