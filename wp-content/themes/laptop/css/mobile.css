@@ -1,0 +1,20 @@
+.adsbygoogle{width:290px;height:90px;display:inline-block}
+
+#index{width:290px}
+#header a.logo{text-align:center;padding:15px 0}
+#header ul.nav li a{font-size:18px;display:block;float:none;text-align:center;margin:2px 2px 0 2px;padding:7px 0;border-right:none}
+#header form.search{position:relative;top:0;right:0;left:15px}
+#header form.search input[type="text"]{width:250px;margin:15px 0}
+#header form.search input[type="submit"]{background:url(../images/icon_submit.png) no-repeat;top:20px}
+#content{width:290px;float:none;padding:15px 0;border-left:none}
+#content h1.single-title,#content h1.post-title,#content h2.post-title{text-align:center}
+#content .post.one{margin:0 0 20px 0;padding:0 0 15px 0;border-bottom:1px dashed #bbb}
+#content .post.one a img{float:none;display:block;margin:0 auto 10px auto}
+#content.single img,#content.single a img{width:278px;margin:0 auto 10px auto}
+#content.single .gallery h3{text-align:center;padding:5px 0}
+#content.single .gallery .img{float:none;margin:0 auto 15px auto}
+#content .wp-pagenavi{text-align:center}
+#sidebar{width:200px;float:none;margin:15px auto 0 auto;border:1px solid #fff}
+#footer{width:290px}
+#comment{width:273px!important;height:100px!important;resize:none!important}
+#submit{margin:0 auto!important}

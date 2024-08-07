@@ -1,0 +1,30 @@
+[06-Dec-2018 18:05:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/archive.php on line 1
+[09-Aug-2019 19:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[09-Aug-2019 20:00:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[10-Jun-2020 23:37:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[23-Oct-2020 17:16:02 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[28-Oct-2020 11:19:14 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[28-Dec-2020 14:39:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[29-Dec-2020 15:23:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1
+[30-Dec-2020 12:50:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-content/themes/laptop/index.php on line 1

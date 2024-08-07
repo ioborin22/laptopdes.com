@@ -1,0 +1,2 @@
+[30-Oct-2021 15:50:57 UTC] PHP Warning:  Use of undefined constant ddsg_language - assumed 'ddsg_language' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-content/plugins/sitemap-generator/sitemap-generator.php on line 45
+[30-Oct-2021 15:50:57 UTC] PHP Warning:  Use of undefined constant ddsg_language - assumed 'ddsg_language' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-content/plugins/sitemap-generator/sitemap-generator.php on line 45

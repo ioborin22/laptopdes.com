@@ -1,0 +1,55 @@
+[23-Mar-2020 07:04:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/abrilint/public_html/laptop/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-includes/locale.php on line 10
+[10-Aug-2020 03:41:50 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Aug-2020 03:41:50 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Aug-2020 03:41:50 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[22-Jan-2021 13:57:09 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[22-Jan-2021 13:57:09 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[22-Jan-2021 13:57:09 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[22-Jan-2021 13:57:09 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[22-Jan-2021 13:57:09 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 08:51:01 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 08:51:01 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 08:51:01 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 08:51:01 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 08:51:01 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[23-Jan-2021 10:27:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/abrilint/public_html/laptop/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-includes/locale.php on line 11
+[24-Jan-2021 11:48:04 America/Boise] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home2/abrilint/public_html/laptop/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/abrilint/public_html/laptop/wp-includes/class-walker-nav-menu.php on line 17
+[04-Feb-2021 05:13:25 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[04-Feb-2021 05:13:25 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[04-Feb-2021 05:13:25 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[04-Feb-2021 05:13:25 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[04-Feb-2021 05:13:25 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[08-Feb-2021 03:59:19 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[08-Feb-2021 03:59:19 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[08-Feb-2021 03:59:19 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[08-Feb-2021 03:59:19 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[08-Feb-2021 03:59:19 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[25-Feb-2021 22:59:24 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[25-Feb-2021 22:59:24 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[25-Feb-2021 22:59:24 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[25-Feb-2021 22:59:24 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[25-Feb-2021 22:59:24 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Mar-2021 11:54:23 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Mar-2021 11:54:23 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Mar-2021 11:54:23 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Mar-2021 11:54:23 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[10-Mar-2021 11:54:23 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[02-Aug-2021 00:43:16 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[02-Aug-2021 00:43:16 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[02-Aug-2021 00:43:16 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[02-Aug-2021 00:43:16 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[02-Aug-2021 00:43:16 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[12-Aug-2021 21:08:37 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[12-Aug-2021 21:08:37 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[12-Aug-2021 21:08:37 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[12-Aug-2021 21:08:37 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
+[12-Aug-2021 21:08:37 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/abrilint/public_html/laptop/wp-includes/functions.php on line 8
